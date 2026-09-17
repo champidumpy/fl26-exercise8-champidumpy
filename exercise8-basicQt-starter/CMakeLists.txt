@@ -12,3 +12,7 @@ add_executable(hello_static hello_static.cpp)
 
 # Link Qt6 Widgets
 target_link_libraries(hello_static Qt6::Widgets)
+
+#New lines 
+add_executable(hello_label hello_label.cpp label_printer.cpp)
+target_link_libraries(hello_label Qt6::Widgets)
